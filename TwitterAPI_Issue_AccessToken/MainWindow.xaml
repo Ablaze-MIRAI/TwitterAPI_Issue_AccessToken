@@ -1,0 +1,29 @@
+﻿<Window x:Class="TwitterAPI_Issue_AccessToken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwitterAPI_Issue_AccessToken"
+        mc:Ignorable="d"
+        Title="TwitterAPI_Issue_AccessToken" Height="450" Width="800"
+        ResizeMode="NoResize" Icon="twitter.png"
+        >
+    <Grid Height="421" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130*"/>
+            <RowDefinition Height="291*"/>
+        </Grid.RowDefinitions>
+        <Button Content="アクセストークンを発行" Height="34" Margin="10,62,10,0" VerticalAlignment="Top" Click="Button_Click" Grid.Row="1"/>
+        <TextBox x:Name="textbox1" Margin="10,36,10,69" TextWrapping="Wrap"/>
+        <TextBox x:Name="textbox2" Height="25" Margin="10,82,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textbox1_TextChanged"/>
+        <Label Content="API KEY SECRET" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,61,0,0"/>
+        <Label Content="API KEY" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox x:Name="textbox3" Height="144" Margin="10,101,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1"/>
+        <ComboBox x:Name="pulldown1" Height="32" Margin="10,10,10,0" VerticalAlignment="Top" SelectedIndex="0" SelectionChanged="pulldown1_SelectionChanged" Grid.Row="1">
+            <TextBlock Text="通常"/>
+        </ComboBox>
+        <Label Content="出力形式" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,112,0,0" Grid.RowSpan="2"/>
+        <Label Content="© 2021 code-raisan. © 2021 Ablaze." HorizontalAlignment="Left" Margin="536,250,0,10" Grid.Row="1" Width="248" FontSize="14"/>
+        <Button Content="ヘルプを見る" Margin="10,250,466,13" Grid.Row="1" Click="Button_Click_1"/>
+    </Grid>
+</Window>

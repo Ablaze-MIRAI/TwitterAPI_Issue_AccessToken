@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAPI_Issue_AccessToken", "TwitterAPI_Issue_AccessToken\TwitterAPI_Issue_AccessToken.csproj", "{C31758A2-FDBB-4737-A60D-39B3A8C350EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31758A2-FDBB-4737-A60D-39B3A8C350EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31758A2-FDBB-4737-A60D-39B3A8C350EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31758A2-FDBB-4737-A60D-39B3A8C350EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31758A2-FDBB-4737-A60D-39B3A8C350EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53614DCC-5EE1-4B2A-A360-9DACA764C92A}
+	EndGlobalSection
+EndGlobal
